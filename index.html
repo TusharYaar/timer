@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <link href="style.css" rel="stylesheet">
+
+    <title>Timer</title>
+  </head>
+  <body>
+    <div id="container">
+      <div>
+        <input type="number" id="num" min="0" placeholder="Sec">
+        <button id="but" onclick="startime()" >Start Timer </button>
+        <button id="but1" onclick="stoptime()" >Stop Timer </button>
+      </div>
+      <p id="para"> Time left : <span id="left">0</span>seconds</p>
+
+     </div>
+  <div id="stop"><h3 id="stopt">Your Timer has Stopped</h3>
+  <button onclick="  document.getElementById('stop').style.display='none' ">Back</button>
+</div>
+<script src="scrpit.js"></script>
+  </body>
+</html>

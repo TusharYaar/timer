@@ -1,0 +1,98 @@
+
+html {
+  background-color: #FCA833;
+}
+body {
+  font-family: sans-serif;
+}
+
+#container {
+height:200px;
+width: 500px;
+background-color: #16E4CB;
+padding: 20px;
+border-radius: 30px;
+border: 2px black solid;
+
+position: relative;
+margin: 100px auto;
+}
+
+#num {
+background-color: rgb(136, 235, 100);
+height: 60px;
+width: 30%;
+margin: 0px 9%;
+border-radius: 20px;
+border: 2px black solid;
+font-size: 50px;
+padding: 10px;
+
+}
+#but {
+height: 60px;
+width: 30%;
+margin: 0px;
+border-radius: 20px;
+font-size: 20px;
+padding: 10px;
+position: absolute;
+border: 2px black solid;
+top: 12%;
+display: inline;
+}
+#but1 {
+height: 60px;
+width: 30%;
+margin: 0px;
+border-radius: 20px;
+font-size: 20px;
+padding: 10px;
+border: 2px black solid;
+position: absolute;
+top: 12%;
+display: none;
+}
+
+#para {
+  margin: 5% ;
+  font-size: 30px;
+}
+#left{
+  font-size: 100px;
+}
+
+#stop {
+  height:200px;
+  width: 400px;
+  background-color: rgb(115, 23, 230);
+  position: absolute;
+  top: 15%;
+  left : 36.5%;
+  border-radius: 30px;
+  border: 2px black solid;
+  display: none;
+}
+#stop h3{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 40px;
+}
+#stop button{
+  padding:10px;
+  margin: 2px;
+  position: absolute;
+  left: 40%;
+  border-radius: 30px;
+  border: 2px black solid;
+}
+
+
+#but:hover
+{
+  background-color: rgb(15, 188, 224);
+}
+#but1:hover
+{
+  background-color: rgb(237, 19, 19);
+}
